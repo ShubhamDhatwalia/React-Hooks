@@ -1,13 +1,15 @@
 import State from './hooksComponents/State';
 import Context from './hooksComponents/Context';
-import Context1 from './hooksComponents/Context1';
-import Context2 from './hooksComponents/Context2';
+import Effect from './hooksComponents/Effect';
+import Ref from './hooksComponents/Ref'
 
 function App() {
   return (
     <>
     <State/>
     <Context />
+    <Effect/>
+    <Ref />
     </>
   );
 };
